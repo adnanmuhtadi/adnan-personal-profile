@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-![image](https://user-images.githubusercontent.com/13140188/135689076-cad85945-4cbc-4485-abe1-e17f2003888f.png)
+![image](https://img.shields.io/static/v1?label=<HTML>&message=<5>&color=<RED>)
 
 🔭 I’m currently working on revamping my github and the current projects in it
 
