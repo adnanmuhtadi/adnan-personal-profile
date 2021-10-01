@@ -1,13 +1,13 @@
 ### Hi there 👋
 
-![HTML](https://img.shields.io/static/v1?label=HTML&message=5&color=RED&logo=html5)
-![CSS](https://img.shields.io/static/v1?label=CSS&message=3&color=RED)
-![JavaScript](https://img.shields.io/static/v1?label=HTML&message=5&color=RED)
-![JQuery](https://img.shields.io/static/v1?label=HTML&message=5&color=RED)
-![Flask](https://img.shields.io/static/v1?label=HTML&message=5&color=RED)
-![MongoDB](https://img.shields.io/static/v1?label=HTML&message=5&color=RED)
-![Python](https://img.shields.io/static/v1?label=HTML&message=5&color=RED)
-![Django](https://img.shields.io/static/v1?label=HTML&message=5&color=RED)
+![HTML](https://img.shields.io/static/v1?label=HTML&message=5&style=E34F26&logo=html5)
+![CSS](https://img.shields.io/static/v1?label=CSS&message=3&style=flat&color=1572B6&logo=css3)
+![Javascript](https://img.shields.io/static/v1?label=JavaScript&message=ES8&style=flat&color=F7DF1E&logo=JavaScript)
+![JQuery](https://img.shields.io/static/v1?label=JQuery&message=1&style=flat&color=0769AD&logo=jquery)
+![Flask](https://img.shields.io/static/v1?label=Flask&message=1.1.2&style=flat&color=000000&logo=flask)
+![MongoDB](https://img.shields.io/static/v1?label=MongoDB&message=4.2.8&style=flat&color=47A248&logo=mongodb)
+![Python](https://img.shields.io/static/v1?label=Python&message=3&style=flat&color=3776AB&logo=PYTHON)
+![Django](https://img.shields.io/static/v1?label=HTML&message=5&color=RED&logo=django)
 
 
 🔭 I’m currently working on revamping my github and the current projects in it
