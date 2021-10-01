@@ -1,4 +1,5 @@
-### Hi there 👋
+## Hi 👋, My name is Adnan
+### Enjoy programming in my spare time and so building a project portfolio hopefully to land a developers job
 
 #### Languages
 
@@ -18,13 +19,3 @@
 ![MongoDB](https://img.shields.io/static/v1?label=MongoDB&message=4.2.8&style=flat&color=47A248&logo=mongodb)
 ![DJango](https://img.shields.io/static/v1?label=DJango&message=5&color=006400&logo=django)
 
-
-🔭 I’m currently working on revamping my github and the current projects in it
-
-🌱 I’m currently learning to enhance all my developing skills to sometimes just the basic to new features
-
-🤔 I’m looking for help with ideas to develop something new. Can develop but have no idea what.
-
-📫 How to reach me: adnanmuhtadi96@gmail.com
-
-⚡ Fun fact: I like developing for fun and use it to relax
