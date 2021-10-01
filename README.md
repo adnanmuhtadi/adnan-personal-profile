@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-/play trombone
+![image](https://user-images.githubusercontent.com/13140188/135689076-cad85945-4cbc-4485-abe1-e17f2003888f.png)
 
 🔭 I’m currently working on revamping my github and the current projects in it.
 🌱 I’m currently learning to enhance all my developing skills to sometimes just the basic to new features
