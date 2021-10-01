@@ -17,5 +17,5 @@
 #### Databases
 
 ![MongoDB](https://img.shields.io/static/v1?label=MongoDB&message=4.4.9&style=flat&color=47A248&logo=mongodb)
-![DJango](https://img.shields.io/static/v1?label=DJango&message=5&color=006400&logo=django)
+![DJango](https://img.shields.io/static/v1?label=DJango&message=3.2&color=006400&logo=django)
 
