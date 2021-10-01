@@ -1,5 +1,5 @@
 ## Hi 👋, My name is Adnan
-### Enjoy programming in my spare time and so building a project portfolio hopefully to land a developers job
+### Enjoy programming in my spare time and so building a project portfolio hopefully to land a junior developer role.
 
 #### Languages
 
