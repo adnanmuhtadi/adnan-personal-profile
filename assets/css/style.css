@@ -335,6 +335,16 @@ img{
     background-color: var(--first-color-light);
 }
 
+.button-link{
+    background: none;
+    color: var(--first-color);
+    padding: 0;
+}
+
+.button-link:hover{
+    background: none;
+}
+
 /* ===== ABOUT ===== */
 .about_data{
     text-align: center;
@@ -433,4 +443,8 @@ img{
 
 .portfolio_content:hover{
     box-shadow: 0 6px 8px rgba(174, 190, 205, .4);
+}
+
+.portfolio_content:hover .portfolio_img{
+    transform: scale(1.02);
 }
