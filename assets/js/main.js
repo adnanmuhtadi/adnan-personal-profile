@@ -56,3 +56,22 @@ function scrollTop() {
 window.addEventListener('scroll', scrollTop)
 
 /* ===== MIXITUP FILTER PORTFOLIO ===== */
+const mixer = mixitup('.portfolio_container', {
+    selectors: {
+        target: '.portfolio_content'
+    },
+    animation: {
+        duration: 400
+    }
+});
+
+/* Link Active Portfolio */
+const linkPortfolio = document.querySelectorAll('.portfolio_item')
+
+function activePortfolio() {
+    if (linkPortfolio) {
+        linkPortfolio.forEach(l => l.classList.remove('active-portfolio'))
+        this.classList.add('active-portfolio')
+    }
+}
+linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))

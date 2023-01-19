@@ -241,24 +241,26 @@
             <h2 class="section-title">Portfolio</h2>
 
             <div class="portfolio_nav">
-                <span class="portfolio_item">All</span>
-                <span class="portfolio_item">Websites</span>
-                <span class="portfolio_item">Apps</span>
+                <span class="portfolio_item active-portfolio" data-filter="all">All</span>
+                <span class="portfolio_item" data-filter=".web">Websites</span>
+                <span class="portfolio_item" data-filter=".app">Apps</span>
             </div>
 
             <div class="portfolio_container bd-grid">
                 <!-- First website-->
-                <div class="portfolio_content">
+                <div class="portfolio_content mix web">
                     <a href="#"><img src="assets/images/work1.jpg" alt="" class="portfolio_img"></a>
                     <div class="portfolio_data">
-                        <span class="portfolio_subtitle">web Development</span>
-                        <a href="#"><h2 class="portfolio_title">New Portfolio of work done for a client</h2></a>
+                        <span class="portfolio_subtitle">Web Development</span>
+                        <a href="#">
+                            <h2 class="portfolio_title">New Portfolio of work done for a client</h2>
+                        </a>
                         <a href="#" class="button button-link">View Details</a>
                     </div>
                 </div>
 
                 <!-- Second website -->
-                <div class="portfolio_content">
+                <div class="portfolio_content mix web">
                     <a href="#"><img src="assets/images/work2.jpg" alt="" class="portfolio_img"></a>
                     <div class="portfolio_data">
                         <span class="portfolio_subtitle">web Development</span>
@@ -270,7 +272,7 @@
                 </div>
 
                 <!-- Third website-->
-                <div class="portfolio_content">
+                <div class="portfolio_content mix app">
                     <a href="#"><img src="assets/images/work3.jpg" alt="" class="portfolio_img"></a>
                     <div class="portfolio_data">
                         <span class="portfolio_subtitle">web Development</span>
@@ -282,7 +284,7 @@
                 </div>
 
                 <!-- Fourth website -->
-                <div class="portfolio_content">
+                <div class="portfolio_content mix web">
                     <a href="#"><img src="assets/images/work4.jpg" alt="" class="portfolio_img"></a>
                     <div class="portfolio_data">
                         <span class="portfolio_subtitle">web Development</span>
@@ -294,7 +296,7 @@
                 </div>
 
                 <!-- Fifth website -->
-                <div class="portfolio_content">
+                <div class="portfolio_content mix app">
                     <a href="#"><img src="assets/images/work5.jpg" alt="" class="portfolio_img"></a>
                     <div class="portfolio_data">
                         <span class="portfolio_subtitle">web Development</span>
@@ -306,7 +308,7 @@
                 </div>
 
                 <!-- Sixth website -->
-                <div class="portfolio_content">
+                <div class="portfolio_content mix web">
                     <a href="#"><img src="assets/images/work6.jpg" alt="" class="portfolio_img"></a>
                     <div class="portfolio_data">
                         <span class="portfolio_subtitle">web Development</span>
@@ -322,6 +324,52 @@
         </section>
 
         <!-- ===== CONTACT ===== -->
+        <section class="contact section bd-container" id="contact">
+            <span class="section-subtitle">For projects or Questions</span>
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact_container bd-grid">
+                <div class="contact_content bd-grid">
+                    <div class="contact_box">
+                        <i class="bx bx-home contact_icon"></i>
+                        <h3 class="contact_title">Name</h3>
+                        <span class="contact_description">name</span>
+                    </div>
+
+                    <div class="contact_box">
+                        <i class="bx bx-envelope contact_icon"></i>
+                        <h3 class="contact_title">Mail</h3>
+                        <span class="contact_description">blah@blah.blah</span>
+                    </div>
+
+                    <div class="contact_box">
+                        <i class="bx bx-message contact_icon"></i>
+                        <h3 class="contact_title">Message</h3>
+                        <div>
+                            <a href="#" class="contact_social"><i class="bx bxl-whatsapp-square"></i></a>
+                            <a href="#" class="contact_social"><i class="bx bxl-telegram"></i></a>
+                            <a href="#" class="contact_social"><i class="bx bxl-messenger"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form">
+                    <div class="contact_inputs">
+                        <input type="text" placeholder="Name" class="contact_input">
+                        <input type="email" placeholder="Email" class="contact_input">
+                    </div>
+
+                    <textarea name="" id="" cols="" rows="7" placeholder="Message" class="contact_input"></textarea>
+
+                    <input type="submit" value="Send Message" class="button contact_button">
+                </form>
+            </div>
+
+
+        </section>
+
+
+
 
     </main>
 
@@ -332,7 +380,10 @@
 
     <!-- ===== MIXITUP FILER ===== -->
     <!-- ===== url (https://www.kunkalabs.com/mixitup/) ===== -->
+    <script src="assets/js/mixitup.min.js"></script>
 
+    <!-- ===== SWIPER JS ===== -->
+    <script src=""></script>
 
     <!-- ===== MAIN JS ===== -->
     <script src="assets/js/main.js"></script>
