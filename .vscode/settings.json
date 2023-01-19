@@ -22,5 +22,6 @@
     ],
     "cSpell.ignoreWords": [
         "scrolltop"
-    ]
+    ],
+    "git.enableSmartCommit": true
 }
