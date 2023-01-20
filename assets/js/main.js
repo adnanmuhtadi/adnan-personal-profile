@@ -84,3 +84,16 @@ gsap.from(".home_greeting .home_name, .home_profession, .home_button", {opacity:
 gsap.from(".nav_logo, .nav_toggle", { opacity: 0, duration: 2, delay: 1.5, y: 25, ease:'expo.out', stagger:.2 })
 gsap.from(".nav_item", { opacity: 0, duration: 2, delay: 1.8, y: 25, ease:'expo.out', stagger:.2 })
 gsap.from(".home_social-icon", { opacity: 0, duration: 2, delay: 2.3, y: 25, ease: 'expo.out', stagger: .2 })
+
+/* ===== DARK/LIGHT MODE ===== */
+let darkmode = document.querySelector('#darkmode');
+
+darkmode.onclick = () => {
+    if (darkmode.classList.contains('bx-moon')) {
+        darkmode.classList.replace('bx-moon', 'bx-sun');
+        document.body.classList.add('active');
+    } else {
+        darkmode.classList.replace('bx-sun', 'bx-moon');
+        document.body.classList.remove('active');
+    }
+}

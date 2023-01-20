@@ -10,17 +10,14 @@
     <!-- ===== CSS STYLE SHEET ===== -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ===== AOS SCROLL Animation - url (http://michalsnik.github.io/aos/) ===== -->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
 
-    <!-- ===== BOX ICONS ===== -->
-    <!-- ===== url (https://boxicons.com/) ===== -->
+    <!-- ===== BOX ICONS - url (https://boxicons.com/) ===== -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-    <!-- ===== GREEN SOCK ===== -->
-    <!-- ===== url (https://www.kunkalabs.com/mixitup/) ===== -->
+    <!-- ===== GREEN SOCK - url (https://www.kunkalabs.com/mixitup/) ===== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -41,6 +38,9 @@
                     <li class="nav_item"><a href="#about" class="nav_item">About</a></li>
                     <li class="nav_item"><a href="#portfolio" class="nav_item">Portfolio</a></li>
                     <li class="nav_item"><a href="#contact" class="nav_item">Contact Me</a></li>
+                    <li class="nav_item">
+                        <div class="bx bx-moon" id="darkmode"></div>
+                    </li>
                 </ul>
             </div>
 
@@ -341,7 +341,7 @@
                     <div class="contact_box" data-aos="fade-up">
                         <i class="bx bx-envelope contact_icon"></i>
                         <h3 class="contact_title">Mail</h3>
-                        <span class="contact_description">blah@blah.blah</span>
+                        <span class="contact_description">adnanmuhtadi@hotmail.com</span>
                     </div>
 
                     <div class="contact_box" data-aos="fade-up">
@@ -350,7 +350,7 @@
                         <div>
                             <a href="https://wa.me/+447951258274" class="contact_social" target="_blank"><i
                                     class="bx bxl-whatsapp-square"></i></a>
-                            <a href="https://telegram.me/adnanmuhtadi" class=" contact_social"><i
+                            <a href="https://telegram.me/adnanmuhtadi" class=" contact_social" target="_blank"><i
                                     class="bx bxl-telegram"></i></a>
                             <a href="http://m.me/adnan.muhtadi" class="contact_social" target="_blank"><i
                                     class="bx bxl-messenger"></i></a>
@@ -373,8 +373,6 @@
             </div>
 
         </section>
-
-
 
     </main>
 
@@ -406,6 +404,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/emailjs.js"></script>
 
+    <!-- ===== AOS SCROLL Animation - url (http://michalsnik.github.io/aos/) ===== -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
@@ -415,14 +414,16 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
 
-    <!-- ===== SWEETALERT - url (https://sweetalert.js.org/) ===== -->
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
     <script type="text/javascript">
         (function () {
             emailjs.init("user_9UPvI1Hs4JHGtyozwple6");
         })();
     </script>
+
+    <!-- ===== SWEETALERT - url (https://sweetalert.js.org/) ===== -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
 
 </body>
 
