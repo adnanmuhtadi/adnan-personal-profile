@@ -606,23 +606,6 @@ img{
         margin-bottom: var(--mb-5);
     }
 
-    .nav{
-        height: calc(var(--header-height) +1.5rem);
-    }
-
-    .nav_list{
-        display: flex;
-    }
-
-    .nav_item{
-        margin-left: var(--mb-5);
-        margin-bottom: 0;
-    }
-
-    .nav_toggle{
-        display: none;
-    }
-
     .home_container{
         height: 100vh;
         grid-template-rows: max-content .5fr;
@@ -633,8 +616,12 @@ img{
         font-size: 1.25rem;
     }
 
+    .home_name{
+        font-size: 2.6rem;
+    }
+
     .home_profession{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .home_social{
@@ -673,6 +660,23 @@ img{
     .bd-container{
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .nav{
+        height: calc(var(--header-height) +1.5rem);
+    }
+
+    .nav_list{
+        display: flex;
+    }
+
+    .nav_item{
+        margin-left: var(--mb-5);
+        margin-bottom: 0;
+    }
+
+    .nav_toggle{
+        display: none;
     }
 
     .qualification_container{
