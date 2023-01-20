@@ -11,7 +11,7 @@ function validate() {
             emptyerror();
         } else {
             sendmail(name.value, email.value, msg.value);
-            success;
+            success();
         }
     })
 }
@@ -19,9 +19,9 @@ validate();
 
 function sendmail(name, email, msg) {
     emailjs.send("personal-gmail", "template_ko45qmy", {
-        from_name: "email",
-        to_name: "name",
-        message: "msg",
+        from_name: email,
+        to_name: name,
+        message: msg,
     });
 }
 
