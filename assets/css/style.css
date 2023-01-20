@@ -10,6 +10,7 @@
     --bg-color-rev: #fff;
     --text-color: #000;
     --text-color-rev: #fff;
+    --text-color-same: #000;
     --first-color: #3e0e12;
     --first-color-btn: #3e0e12;
     --first-color-dark: #2f0a0d;
@@ -72,6 +73,7 @@ body.active{
     --bg-color: #000;
     --bg-color-rev: #000;
     --text-color: #fff;
+    --text-color-same: #000;
     --first-color-btn: #fff;
     --first-color-dark: #fff;
     --first-color-light: #b6a8ab;
@@ -527,7 +529,7 @@ img{
 }
 
 .contact_description{
-    color: var(--text-color-rev);
+    color: var(--text-color-same);
 }
 
 .icon_icon{
