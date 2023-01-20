@@ -351,7 +351,7 @@ img{
 }
 
 .about_description span{
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-semi-bold);
     color: var(--first-color);
 }
@@ -423,7 +423,7 @@ img{
     background-color: #fff;
     border-radius: .5rem;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(174, 190, 205, .4);
+    box-shadow: 0 4px 6px rgba(174, 190, 205, .3);
 }
 
 .portfolio_img{
@@ -532,4 +532,154 @@ img{
 .contact_button{
     cursor: pointer;
     border: none;
+}
+
+/* ===== FOOTER ===== */
+.footer{
+    background-color: var(--first-color-dark);
+    color: var(--first-color-lighten);
+    text-align: center;
+}
+
+.footer_container{
+    padding: 3rem 0;
+}
+
+.footer_title{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-1);
+    font-weight: var(--font-semi-bold);
+}
+
+.footer_description{
+    margin-bottom: var(--mb-3);
+}
+
+.footer_social{
+    margin-bottom: var(--mb-6);
+}
+
+.footer_link{
+    font-size: 1.4rem;
+    color: var(--first-color-lighten);
+    margin: 0 var(--mb-1);
+    transition: .3s;
+}
+
+.footer_link:hover{
+    color:var(--first-color-light)
+}
+
+.footer_copy{
+    font-size: var(--smaller-font-size);
+    color: var(--first-color-light);
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media screen and (min-width: 576px){
+    .home_img img{
+        width: 330px;
+    }
+
+    .about_container,
+    .qualification_container,
+    .portfolio_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .contact_form{
+        width: 450px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+        margin: 0;
+    }
+
+    .section{
+        padding-top: 6rem;
+    }
+
+    .section-title{
+        margin-bottom: var(--mb-5);
+    }
+
+    .nav{
+        height: calc(var(--header-height) +1.5rem);
+    }
+
+    .nav_list{
+        display: flex;
+    }
+
+    .nav_item{
+        margin-left: var(--mb-5);
+        margin-bottom: 0;
+    }
+
+    .nav_toggle{
+        display: none;
+    }
+
+    .home_container{
+        height: 100vh;
+        grid-template-rows: max-content .5fr;
+        align-content: flex-end;
+    }
+
+    .home_greeting{
+        font-size: 1.25rem;
+    }
+
+    .home_profession{
+        font-size: 2rem;
+    }
+
+    .home_social{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .home_social-icon{
+        margin-right: var(--mb-4);
+        margin-bottom: 0;
+    }
+
+    .home_img img{
+        width: 440px;
+    }
+
+    .about_description{
+        text-align: initial;
+    }
+
+    .about_img{
+        width: 300px;
+    }
+
+    .qualification_box{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portfolio_container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .bd-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .qualification_container{
+        column-gap: 6rem;
+    }
+
+    .contact_form{
+        width: auto;
+    }
 }
