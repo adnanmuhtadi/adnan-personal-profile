@@ -156,6 +156,7 @@ img{
 
 /* ===== NAV ===== */
 .nav{
+    margin-top: var(--mb-1);
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -310,7 +311,7 @@ img{
 
 .home_profession{
     font-size: 1.4rem;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-1);
 }
 
 .home_img{
@@ -355,6 +356,11 @@ img{
 
 .button-light{
     background-color: var(--first-color-light);
+}
+
+.button-more{
+    margin: auto;
+    width: fit-content;
 }
 
 .button-link{
