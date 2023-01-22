@@ -1,11 +1,11 @@
-/* ===== GOOGLE FONTS ===== */
+/* ========== GOOGLE FONTS ========== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* ===== VARIABLES CSS ===== */
+/* ========== VARIABLES CSS ========== */
 :root{
     --header-height: 3rem;
 
-    /* ===== COLORS ===== */
+    /* ========== COLORS ========== */
     --bg-color: #fff;
     --bg-color-rev: #fff;
     --text-color: #000;
@@ -20,7 +20,7 @@
     --first-color-gold: #c18f59;
     --first-color-golden: #765735;
 
-    /* ===== FONT AND TYPOGRAPHY ===== */
+    /* ========== FONT AND TYPOGRAPHY ========== */
     --body-font: 'poppins', sans-serif;
     --biggest-font-size: 2.5rem;
     --h1-font-size: 1.5rem;
@@ -30,12 +30,12 @@
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
 
-    /* ===== FONT WEIGHT ===== */
+    /* ========== FONT WEIGHT ========== */
     --font-medium: 500;
     --font-semi-bold: 600;
     --font-bold: 700;
 
-    /* ===== MARGINS ===== */
+    /* ========== MARGINS ========== */
     --mb-1: .5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
@@ -43,7 +43,7 @@
     --mb-5: 2.5rem;
     --mb-6: 3rem;
 
-    /* ===== Z INDEX ===== */
+    /* ========== Z INDEX ========== */
     --z-normal: 1;
     --z-tooltip: 10;
     --z-fixed: 100;
@@ -61,7 +61,7 @@
     }
 }
 
-/* ===== BASE ===== */
+/* ========== BASE ========== */
 *,::before, ::after{
     box-sizing: border-box;
 }
@@ -117,7 +117,7 @@ img{
     display: block;
 }
 
-/* ===== CLASS CSS ===== */
+/* ========== CLASS CSS ========== */
 .section{
     padding: 4rem 0 2rem;
 }
@@ -139,7 +139,7 @@ img{
     font-weight: var(--font-semi-bold);
 }
 
-/* ===== LAYOUT ===== */
+/* ========== LAYOUT ========== */
 .bd-container{
     max-width: 1024px;
     width: calc(100% - 2rem);
@@ -160,7 +160,7 @@ img{
     background-color: #000;
 }
 
-/* ===== NAV ===== */
+/* ========== NAV ========== */
 .nav{
     margin-top: var(--mb-1);
     height: var(--header-height);
@@ -249,7 +249,7 @@ img{
     background-color: var(--first-color-lighten);
 }
 
-/* ===== SCROLL TOP ===== */
+/* ========== SCROLL TOP ========== */
 .scrolltop{
     position: fixed;
     right: 1rem;
@@ -281,7 +281,7 @@ img{
     bottom: 1.5rem;
 }
 
-/* ===== HOME ===== */
+/* ========== HOME ========== */
 .home{
     position: relative;
     display: flex;
@@ -399,7 +399,7 @@ img{
 
 }
 
-/* ===== ABOUT ===== */
+/* ========== ABOUT ========== */
 .about_data{
     text-align: center;
 }
@@ -422,7 +422,7 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== QUALIFICATION ===== */
+/* ========== QUALIFICATION ========== */
 .qualification_container{
     row-gap: 2.5rem;
 }
@@ -462,7 +462,7 @@ img{
     display: block;
 }
 
-/* ===== PORTFOLIO ===== */
+/* ========== PORTFOLIO ========== */
 .portfolio_nav{
     text-align: center;
     margin-bottom: var(--mb-3);
@@ -514,7 +514,7 @@ img{
     font-weight: var(--font-bold);
 }
 
-/* ===== CONTACT ME ===== */
+/* ========== CONTACT ME ========== */
 .contact_container{
     row-gap: 2.5rem;
 }
@@ -592,7 +592,7 @@ img{
     border: none;
 }
 
-/* ===== FOOTER ===== */
+/* ========== FOOTER ========== */
 .footer{
     background-color: var(--first-color-gold);
     color: var(--first-color-lighten);

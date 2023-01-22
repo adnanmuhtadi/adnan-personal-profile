@@ -1,4 +1,4 @@
-/* ===== SHOW MENU ===== */
+/* ========== SHOW MENU ========== */
 const showMenu = (toggleId, navId) =>{
 const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -12,7 +12,7 @@ const toggle = document.getElementById(toggleId),
 
 showMenu('nav-toggle', 'nav-menu')
 
-/* ===== REMOVE MENU MOBILE ===== */
+/* ========== REMOVE MENU MOBILE ========== */
 const navLink = document.querySelectorAll('.nav_link')
 
 function linkAction() {
@@ -21,7 +21,7 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/* ===== SCROLL SECTIONS ACTIVE LINK ===== */
+/* ========== SCROLL SECTIONS ACTIVE LINK ========== */
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive() {
@@ -41,21 +41,21 @@ function scrollActive() {
 }
 window.addEventListener('scroll', scrollActive)
 
-/* ===== CHANGE BACKGROUND HEADER ===== */
+/* ========== CHANGE BACKGROUND HEADER ========== */
 function scrollHeader() {
     const header = document.getElementById('header')
     if (this.scrollY >= 200) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
 
-/* ===== SHOW SCROLL TOP ===== */
+/* ========== SHOW SCROLL TOP ========== */
 function scrollTop() {
     const scrollTop = document.getElementById('scroll-top')
     if (this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollTop)
 
-/* ===== MIXITUP FILTER PORTFOLIO ===== */
+/* ========== MIXITUP FILTER PORTFOLIO ========== */
 const mixer = mixitup('.portfolio_container', {
     selectors: {
         target: '.portfolio_content'
@@ -76,7 +76,7 @@ function activePortfolio() {
 }
 linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
 
-/* ===== GSAP ANIMATION ===== */
+/* ========== GSAP ANIMATION ========== */
 gsap.from(".home_img", {opacity:0, duration:1, delay:.25, x:60})
 gsap.from(".home_data", {opacity:0, duration:1, delay:.55, y:25})
 gsap.from(".home_greeting .home_name, .home_profession, .home_button", {opacity:1, duration:1, delay:.8, y:25, ease:'expo.out', stagger:.2})
@@ -85,7 +85,7 @@ gsap.from(".nav_logo, .nav_toggle", { opacity: 0, duration: 1, delay: 1, y: 25, 
 gsap.from(".nav_item", { opacity: 0, duration: 1, delay: 1.4, y: 25, ease:'expo.out', stagger:.2 })
 gsap.from(".home_social-icon", { opacity: 0, duration: 1, delay: 1.9, y: 25, ease: 'expo.out', stagger: .2 })
 
-/* ===== DARK/LIGHT MODE ===== */
+/* ========== DARK/LIGHT MODE ========== */
 let darkmode = document.querySelector('#darkmode');
 
 darkmode.onclick = () => {
