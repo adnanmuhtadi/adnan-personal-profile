@@ -508,6 +508,12 @@ img{
     transform: scale(1.02);
 }
 
+.portfolio_description{
+    font-size: var(--smaller-font-size);
+    margin-bottom: var(--mb-2);
+    color: var(--text-color-same);
+}
+
 /* Active Menu Portfolio */
 .active-portfolio{
     color: var(--first-color-dark);
