@@ -39,4 +39,5 @@ function success() {
         text: "Will reply within 24 hours",
         icon: "success",
     });
+    document.getElementById("contact-form").reset();
 }

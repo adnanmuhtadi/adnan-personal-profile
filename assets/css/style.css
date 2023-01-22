@@ -137,6 +137,7 @@ img{
     display: block;
     font-size: var(--smaller-font-size);
     font-weight: var(--font-semi-bold);
+    padding-top: 60px;
 }
 
 /* ===== LAYOUT ===== */
@@ -370,7 +371,7 @@ img{
     background-color: var(--first-color-gold);
     color:var(--first-color-lighten);
     padding: .75rem 1rem;
-    border-radius: .25rem;
+    border-radius: 25px;
     transition: .3s;
 }
 
@@ -400,6 +401,9 @@ img{
 }
 
 /* ===== ABOUT ===== */
+.about{
+    padding-top: 30px;
+}
 .about_data{
     text-align: center;
 }
@@ -614,7 +618,8 @@ img{
 }
 
 .footer_social{
-    margin-bottom: var(--mb-3);
+    /* margin-bottom: var(--mb-3); */
+    padding-bottom: var(--mb-2);
 }
 
 .footer_link{
