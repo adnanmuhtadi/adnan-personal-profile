@@ -117,6 +117,25 @@ img{
     display: block;
 }
 
+.blue-line {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: var(--first-color-gold);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: var(--mb-3);
+}
+
+.blue-line-sub {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: var(--text-color);
+    display: block;
+    margin: 0 auto;
+}
+
 /* ========== CLASS CSS ========== */
 .section{
     padding: 4rem 0 2rem;
@@ -130,7 +149,7 @@ img{
 .section-title{
     font-size: var(--h1-font-size);
     color: var(--first-color-gold);
-    margin-bottom: var(--mb-3);
+    margin: var(--mb-3);
 }
 
 .section-subtitle{
@@ -309,6 +328,8 @@ img{
     grid-template-rows: repeat(2, max-content);
     align-content: space-around;
     row-gap: 2rem;
+    margin-top: 1rem;
+    line-height: normal;
 }
 
 .home_data{
@@ -332,10 +353,34 @@ img{
     font-size: .813rem;
 }
 
-.home_profession{
-    font-size: 1.4rem;
+.typed-text {
+    font-size: 1.35rem;
     margin-bottom: var(--mb-1);
+    font-weight: var(--font-bold);
+    color: var(--teal);
+    font-family: var(--redressed);
 }
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+    background: var(--first-color-lightest)
+}
+
+.cursor.blink {
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    background: var(--teal);
+  }
+  40%, 50% {
+    background: transparent;
+  }
+}
+
 
 .home_img{
     position: absolute;
@@ -563,12 +608,6 @@ img{
 
 .contact_box:hover{
     box-shadow: 0 6px 8px rgba(174, 190, 205, 0.9);
-}
-
-.contact_inputs{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    column-gap: 1rem;
 }
 
 .contact_input,

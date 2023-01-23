@@ -3,6 +3,10 @@
     .home_img img{
         width: 330px;
     }
+    
+    .home_container{
+        margin-top: 0;
+    }
 
     .about_container,
     .qualification_container,
@@ -25,8 +29,8 @@
         padding-top: 6rem;
     }
 
-    .section-title{
-        margin-bottom: var(--mb-5);
+    .blue-line{
+        margin-bottom: var(--mb-6);
     }
 
     .home_container{
@@ -77,6 +81,16 @@
     .portfolio_container{
         grid-template-columns: repeat(3,1fr);
     }
+
+    .contact_form{
+        width: auto;
+    }
+
+    .contact_inputs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 1rem;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -104,9 +118,5 @@
 
     .qualification_container{
         column-gap: 6rem;
-    }
-
-    .contact_form{
-        width: auto;
     }
 }
