@@ -117,25 +117,6 @@ img{
     display: block;
 }
 
-.blue-line {
-    content: "";
-    width: 80px;
-    height: 2px;
-    background: var(--first-color-gold);
-    display: block;
-    margin: 0 auto;
-    margin-bottom: var(--mb-3);
-}
-
-.blue-line-sub {
-    content: "";
-    width: 30px;
-    height: 1px;
-    background: var(--text-color);
-    display: block;
-    margin: 0 auto;
-}
-
 /* ========== CLASS CSS ========== */
 .section{
     padding: 4rem 0 2rem;
@@ -156,6 +137,25 @@ img{
     display: block;
     font-size: var(--smaller-font-size);
     font-weight: var(--font-semi-bold);
+}
+
+.blue-line {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: var(--first-color-gold);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: var(--mb-3);
+}
+
+.blue-line-sub {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: var(--text-color);
+    display: block;
+    margin: 0 auto;
 }
 
 /* ========== LAYOUT ========== */
@@ -380,7 +380,6 @@ img{
     background: transparent;
   }
 }
-
 
 .home_img{
     position: absolute;
