@@ -1,4 +1,10 @@
 /* ========== MEDIA QUERIES ========== */
+@media screen and (min-width: 425px){
+    .home_img img{
+        width: 240px;
+    }
+}
+
 @media screen and (min-width: 576px){
     .home_img img{
         width: 330px;
@@ -61,10 +67,6 @@
         margin-bottom: 0;
     }
 
-    .home_img img{
-        width: 440px;
-    }
-
     .about_description{
         text-align: initial;
     }
@@ -118,6 +120,10 @@
 
     .nav_toggle{
         display: none;
+    }
+
+    .home_img img{
+        width: 440px;
     }
 
     .qualification_container{

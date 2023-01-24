@@ -329,7 +329,7 @@ img{
     grid-template-rows: repeat(2, max-content);
     align-content: space-around;
     row-gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 0;
     line-height: normal;
 }
 
@@ -389,7 +389,7 @@ img{
 }
 
 .home_img img{
-    width: 240px;
+    width: 220px;
 }
 
 .home_social{
