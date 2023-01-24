@@ -94,6 +94,10 @@
 }
 
 @media screen and (min-width: 1024px){
+    a.nav_item{
+        text-decoration: none;
+    }
+
     .bd-container{
         margin-left: auto;
         margin-right: auto;
