@@ -7,7 +7,7 @@
 
     /* ========== COLORS ========== */
     --bg-color: #fff;
-    --bg-color-rev: #fff;
+    --bg-color-rev: #000;
     --text-color: #000;
     --text-color-rev: #fff;
     --text-color-same: #000;
@@ -73,7 +73,7 @@ html{
 
 body.active{
     --bg-color: #000;
-    --bg-color-rev: #000;
+    --bg-color-rev: #fff;
     --text-color: #fff;
     --text-color-same: #000;
     --first-color-btn: #fff;
@@ -269,36 +269,40 @@ img{
     background-color: var(--first-color-lighten);
 }
 
-/* ========== SCROLL TOP ========== */
-.scrolltop{
-    position: fixed;
-    right: 1rem;
-    bottom: -20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;
-    background: rgba(123,111,113,.7);
-    border-radius: .5rem;
-    z-index: var(--z-tooltip);
-    transition: .4s;
-    visibility: hidden;
-}
-
-.scrolltop:hover{
-    background-color: var(--first-color);
-    box-shadow: 0 6px 8px rgba(174, 190, 205, .9);
-}
-
-.scrolltop_icon{
-    font-size: 2rem;
+/* ========== SCROLL TOP - IFTI ========== */
+#back-to-top-btn {
+    background-color: var(--first-color-gold);
     color: var(--first-color-lighten);
+    border: 1px solid ;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: background-color 1s,
+        opacity 1s, visibility 1s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    -webkit-box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.59); 
+    box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.59);
 }
 
-/* SHOW SCROLL TOP */
-.show-scroll{
+#back-to-top-btn.visible {
+    opacity: 1;
     visibility: visible;
-    bottom: 1.5rem;
+}
+
+.bxs-chevron-up {
+    margin-top: 10px;
+}
+
+#back-to-top-btn:hover {
+    cursor: pointer;
+    color: var(--text-color);
+    -webkit-box-shadow: 3px 3px 2px 1px rgba(255, 255, 255, 0.59); 
+    box-shadow: 3px 3px 2px 1px rgba(255, 255, 255, 0.59);
 }
 
 /* ========== HOME ========== */

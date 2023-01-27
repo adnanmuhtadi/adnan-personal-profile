@@ -139,3 +139,23 @@ darkmode.onclick = () => {
         document.body.classList.remove('active');
     }
 }
+
+// jQuery Block
+$(document).ready(function () {
+/* ========== SHOW SCROLL TOP - IFTI ========== */
+    let topButton = $('#back-to-top-btn');
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 250) {
+            topButton.addClass('visible');
+        } else {
+            topButton.removeClass('visible');
+        }
+    });
+
+/* ========== CLICK SCROLL TOP - IFTI ========== */
+    topButton.on('click', function (event) {
+        event.preventDefault();
+        $('html, body').scrollTop(0);
+    });
+
+});
