@@ -3,6 +3,10 @@
     .home_img img{
         width: 240px;
     }
+
+    #back-to-top-btn{
+        bottom: 25px;
+        right: 25px;
 }
 
 @media screen and (min-width: 576px){
@@ -30,6 +34,11 @@
     body{
         margin: 0;
     }
+
+    #back-to-top-btn{
+        bottom: 35px;
+        right: 35px;
+}
 
     .section{
         padding-top: 6rem;
@@ -124,6 +133,11 @@
 
     .home_img img{
         width: 440px;
+    }
+
+    #back-to-top-btn{
+        bottom: 50px;
+        right: 50px;
     }
 
     .qualification_container{

@@ -50,6 +50,10 @@ const toggle = document.getElementById(toggleId),
             nav.classList.toggle('show-menu')
         })
     }
+
+    window.onscroll = () => {
+        nav.classList.remove('show-menu')
+    }
 }
 
 showMenu('nav-toggle', 'nav-menu')
